@@ -32,19 +32,16 @@ a {
   text-decoration: none;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  transition: opacity 0.2s;
-}
-
-a:hover {
-  opacity: 0.7;
-  border-bottom: 2px solid #ffffff;
+  transition: color 0.2s;
 }
 
 .selected {
-  opacity: 0.7;
-  border-bottom: 2px solid #ffffff;
+  color: #ffa724;
+  border: 1px solid #ffa724;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.selected:hover {
-  opacity: 0.6;
+a:hover {
+  color: #ffa724
 }

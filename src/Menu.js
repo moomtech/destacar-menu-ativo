@@ -6,11 +6,11 @@ function Menu() {
     <>
       <header>
         <nav>
-          <NavLink exact activeClassName="selected" to="/">
+          <NavLink exact to="/" activeClassName="selected">
             Home
           </NavLink>
 
-          <NavLink activeClassName="selected" to="/dashboard">
+          <NavLink to="/dashboard" activeClassName="selected">
             Dashboard
           </NavLink>
         </nav>
